@@ -414,6 +414,14 @@ display: grid;
     .page {
         height: 1100px;
     }
+    .side-content img {
+        margin-bottom: 100px;
+    }
+    .side-content {
+
+        grid-template-columns: 50px repeat(5,1fr);
+
+    }
     .footer {
         display: flex;
         justify-content: space-around;
